@@ -2,7 +2,7 @@ library(shiny)
 library(tidyverse)
 library(ggthemes)
 
-svi <- read.csv("C:\\Users\\peter\\OneDrive\\School_2024_25\\Spring25\\410\\SVI2022_NEWYORK_tract.csv")
+svi <- read.csv("https://raw.githubusercontent.com/petersemily/shiny-app-danl310/refs/heads/main/SVI2022_NEWYORK_tract.csv")
 
 svi2 <- svi |>
   select(COUNTY, E_TOTPOP, E_NOVEH, E_UNEMP, E_NOHSDP, E_UNINSUR,
